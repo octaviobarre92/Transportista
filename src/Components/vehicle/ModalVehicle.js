@@ -6,7 +6,7 @@ const ModalVehicleComponent = memo((props) => {
         event.preventDefault();
         let values = {
             driver_int: event.target.elements.driver_int.value,
-            plate: +event.target.elements.plate.value,
+            plate: event.target.elements.plate.value,
             model: event.target.elements.model.value,
             type: event.target.elements.type.value,
             capacity: event.target.elements.capacity.value,
